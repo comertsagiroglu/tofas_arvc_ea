@@ -1,0 +1,1231 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>port::plib_port</title>
+<link href="../../../../../../../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("plib_port", " : "))</script>  : Public   Class</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">15.04.2024 23:36:27</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">15.04.2024 23:36:27</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../../../../../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">comert</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../../../../../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{47022F73-44B9-4bde-BCFB-26E7FB1A4A8A}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA699.htm">port</a>, <a href="../../../../../../../../../../EA6/EA4/EA1/EA2/EA113.htm">Firmware SW-SW ID</a>, <a href="../../../../../../../../../EA3/EA1/EA1/EA2/EA958.htm">FW: Boot</a>, <a href="../../../../../../../../../EA3/EA1/EA2/EA1/EA963.htm">LIN: BCM_RVC_1</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">Named type for port group&lt;br/&gt;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('Operations');" id="OperationsTitle">Operations</li>
+			<li onClick="parent.toggleItem('MessagesFrom');" id="MessagesFromTitle">Messages From</li>
+			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+		</ul>
+<div class="ItemBody" id="OperationsTable">
+	<table border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="100%" class="TableHeading">Operation</td>
+		</tr>
+						<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>PORT_GroupClear</strong>(					<a href="#" onclick="parent.toggleData('param{33A9FF08-7A94-4f04-9E6B-2E14CBF9DBFC}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../../../../../images/plus03.gif" align="absmiddle" id="param{33A9FF08-7A94-4f04-9E6B-2E14CBF9DBFC}" border="0" />group: <a href="EA704.htm">PORT_GROUP</a></a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{33A9FF08-7A94-4f04-9E6B-2E14CBF9DBFC}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{33A9FF08-7A94-4f04-9E6B-2E14CBF9DBFC}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{33A9FF08-7A94-4f04-9E6B-2E14CBF9DBFC}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{33A9FF08-7A94-4f04-9E6B-2E14CBF9DBFC}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{3B61190A-27E3-41d5-B0C1-8B61C7D34B85}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../../../../../images/plus03.gif" align="absmiddle" id="param{3B61190A-27E3-41d5-B0C1-8B61C7D34B85}" border="0" />mask: uint32_t</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{3B61190A-27E3-41d5-B0C1-8B61C7D34B85}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{3B61190A-27E3-41d5-B0C1-8B61C7D34B85}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{3B61190A-27E3-41d5-B0C1-8B61C7D34B85}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{3B61190A-27E3-41d5-B0C1-8B61C7D34B85}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):void
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations1620" onclick="parent.toggleDiv('detailsDIVOperations1620','DetailsImageOperations1620')" />Details:
+						<div id="detailsDIVOperations1620" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			Function: void PORT_GroupClear(PORT_GROUP group, uint32_t mask)&#160;&#160;Summary: Clears the selected IO pins of a group.&#160;&#160;Description: This function clears (drives a logic 0) on the selected output pins of a group. The mask parameter control the pins to be updated. A mask bit position with a value 1 will cause that corresponding port pin to be clear. A mask bit position with a value 0 will cause the corresponding port pin to stay un-affected.&#160;&#160;Remarks: Refer plib_port.h file for more information.&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>PORT_GroupInputEnable</strong>(					<a href="#" onclick="parent.toggleData('param{4059E953-F7EF-4707-ADBB-01D443E724FA}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../../../../../images/plus03.gif" align="absmiddle" id="param{4059E953-F7EF-4707-ADBB-01D443E724FA}" border="0" />group: <a href="EA704.htm">PORT_GROUP</a></a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{4059E953-F7EF-4707-ADBB-01D443E724FA}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{4059E953-F7EF-4707-ADBB-01D443E724FA}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{4059E953-F7EF-4707-ADBB-01D443E724FA}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{4059E953-F7EF-4707-ADBB-01D443E724FA}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{BD7B6A4F-ABAC-4676-A42A-BA941D816D42}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../../../../../images/plus03.gif" align="absmiddle" id="param{BD7B6A4F-ABAC-4676-A42A-BA941D816D42}" border="0" />mask: uint32_t</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{BD7B6A4F-ABAC-4676-A42A-BA941D816D42}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{BD7B6A4F-ABAC-4676-A42A-BA941D816D42}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{BD7B6A4F-ABAC-4676-A42A-BA941D816D42}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{BD7B6A4F-ABAC-4676-A42A-BA941D816D42}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):void
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations1621" onclick="parent.toggleDiv('detailsDIVOperations1621','DetailsImageOperations1621')" />Details:
+						<div id="detailsDIVOperations1621" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			Function: void PORT_GroupInputEnable(PORT_GROUP group, uint32_t mask)&#160;&#160;Summary: Configures the selected IO pins of a group as input.&#160;&#160;Description: This function configures the selected IO pins of a group as input. The pins to be configured as input are selected by setting the corresponding bits in the mask parameter to 1.&#160;&#160;Remarks: Refer plib_port.h file for more information.&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>PORT_GroupLatchRead</strong>(					<a href="#" onclick="parent.toggleData('param{B763D757-F970-4d81-8870-34BE5A7204F2}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../../../../../images/plus03.gif" align="absmiddle" id="param{B763D757-F970-4d81-8870-34BE5A7204F2}" border="0" />group: <a href="EA704.htm">PORT_GROUP</a></a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{B763D757-F970-4d81-8870-34BE5A7204F2}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{B763D757-F970-4d81-8870-34BE5A7204F2}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{B763D757-F970-4d81-8870-34BE5A7204F2}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{B763D757-F970-4d81-8870-34BE5A7204F2}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):uint32_t
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations1622" onclick="parent.toggleDiv('detailsDIVOperations1622','DetailsImageOperations1622')" />Details:
+						<div id="detailsDIVOperations1622" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			Function: uint32_t PORT_GroupLatchRead(PORT_GROUP group)&#160;&#160;Summary: Read the data driven on all the I/O pins of the selected port group.&#160;&#160;Description: The function will return a 32-bit value representing the logic levels being driven on the output pins within the group. The function will not sample the actual hardware state of the output pin. Each bit in the 32-bit return value will represent one of the 32 port pins within the group. The application should only consider the value of the pins which are available on the device.&#160;&#160;Remarks: Refer plib_port.h file for more information.&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>PORT_GroupOutputEnable</strong>(					<a href="#" onclick="parent.toggleData('param{49F55C75-AE67-409b-9B66-B7C9BA0A10D2}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../../../../../images/plus03.gif" align="absmiddle" id="param{49F55C75-AE67-409b-9B66-B7C9BA0A10D2}" border="0" />group: <a href="EA704.htm">PORT_GROUP</a></a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{49F55C75-AE67-409b-9B66-B7C9BA0A10D2}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{49F55C75-AE67-409b-9B66-B7C9BA0A10D2}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{49F55C75-AE67-409b-9B66-B7C9BA0A10D2}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{49F55C75-AE67-409b-9B66-B7C9BA0A10D2}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{CA763BB3-F466-41e2-85BF-CDC34915DD57}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../../../../../images/plus03.gif" align="absmiddle" id="param{CA763BB3-F466-41e2-85BF-CDC34915DD57}" border="0" />mask: uint32_t</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{CA763BB3-F466-41e2-85BF-CDC34915DD57}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{CA763BB3-F466-41e2-85BF-CDC34915DD57}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{CA763BB3-F466-41e2-85BF-CDC34915DD57}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{CA763BB3-F466-41e2-85BF-CDC34915DD57}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):void
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations1623" onclick="parent.toggleDiv('detailsDIVOperations1623','DetailsImageOperations1623')" />Details:
+						<div id="detailsDIVOperations1623" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			Function: void PORT_GroupOutputEnable(PORT_GROUP group, uint32_t mask)&#160;&#160;Summary: Configures the selected IO pins of a group as output.&#160;&#160;Description: This function configures the selected IO pins of a group as output. The pins to be configured as output are selected by setting the corresponding bits in the mask parameter to 1.&#160;&#160;Remarks: Refer plib_port.h file for more information.&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>PORT_GroupRead</strong>(					<a href="#" onclick="parent.toggleData('param{E688D9C1-477A-4e38-8EA8-83320E518CF6}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../../../../../images/plus03.gif" align="absmiddle" id="param{E688D9C1-477A-4e38-8EA8-83320E518CF6}" border="0" />group: <a href="EA704.htm">PORT_GROUP</a></a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{E688D9C1-477A-4e38-8EA8-83320E518CF6}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{E688D9C1-477A-4e38-8EA8-83320E518CF6}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{E688D9C1-477A-4e38-8EA8-83320E518CF6}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{E688D9C1-477A-4e38-8EA8-83320E518CF6}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):uint32_t
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations1624" onclick="parent.toggleDiv('detailsDIVOperations1624','DetailsImageOperations1624')" />Details:
+						<div id="detailsDIVOperations1624" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			Function: uint32_t PORT_GroupRead(PORT_GROUP group)&#160;&#160;Summary: Read all the I/O pins in the specified port group.&#160;&#160;Description: The function reads the hardware pin state of all pins in the specified group and returns this as a 32 bit value. Each bit in the 32 bit value represent a pin. For example, bit 0 in group 0 will represent pin PA0. Bit 1 will represent PA1 and so on. The application should only consider the value of the port group pins which are implemented on the device.&#160;&#160;Remarks: Refer plib_port.h file for more information.&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>PORT_GroupSet</strong>(					<a href="#" onclick="parent.toggleData('param{BDC5F1F7-3B8A-4f8e-BC2E-F89FB6D8B6E3}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../../../../../images/plus03.gif" align="absmiddle" id="param{BDC5F1F7-3B8A-4f8e-BC2E-F89FB6D8B6E3}" border="0" />group: <a href="EA704.htm">PORT_GROUP</a></a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{BDC5F1F7-3B8A-4f8e-BC2E-F89FB6D8B6E3}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{BDC5F1F7-3B8A-4f8e-BC2E-F89FB6D8B6E3}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{BDC5F1F7-3B8A-4f8e-BC2E-F89FB6D8B6E3}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{BDC5F1F7-3B8A-4f8e-BC2E-F89FB6D8B6E3}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{555429F4-1479-49dd-B130-89EC8DDA7C0F}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../../../../../images/plus03.gif" align="absmiddle" id="param{555429F4-1479-49dd-B130-89EC8DDA7C0F}" border="0" />mask: uint32_t</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{555429F4-1479-49dd-B130-89EC8DDA7C0F}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{555429F4-1479-49dd-B130-89EC8DDA7C0F}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{555429F4-1479-49dd-B130-89EC8DDA7C0F}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{555429F4-1479-49dd-B130-89EC8DDA7C0F}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):void
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations1625" onclick="parent.toggleDiv('detailsDIVOperations1625','DetailsImageOperations1625')" />Details:
+						<div id="detailsDIVOperations1625" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			Function: void PORT_GroupSet(PORT_GROUP group, uint32_t mask)&#160;&#160;Summary: Set the selected IO pins of a group.&#160;&#160;Description: This function sets (drives a logic high) on the selected output pins of a group. The mask parameter control the pins to be updated. A mask bit position with a value 1 will cause that corresponding port pin to be set. A mask bit position with a value 0 will cause the corresponding port pin to stay un-affected.&#160;&#160;Remarks: Refer plib_port.h file for more information.&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>PORT_GroupToggle</strong>(					<a href="#" onclick="parent.toggleData('param{CE2DC94C-30CE-486c-84AA-4912FC7BFFE5}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../../../../../images/plus03.gif" align="absmiddle" id="param{CE2DC94C-30CE-486c-84AA-4912FC7BFFE5}" border="0" />group: <a href="EA704.htm">PORT_GROUP</a></a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{CE2DC94C-30CE-486c-84AA-4912FC7BFFE5}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{CE2DC94C-30CE-486c-84AA-4912FC7BFFE5}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{CE2DC94C-30CE-486c-84AA-4912FC7BFFE5}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{CE2DC94C-30CE-486c-84AA-4912FC7BFFE5}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{D8A393C3-F3BB-459d-B369-F3F4EC68190E}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../../../../../images/plus03.gif" align="absmiddle" id="param{D8A393C3-F3BB-459d-B369-F3F4EC68190E}" border="0" />mask: uint32_t</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{D8A393C3-F3BB-459d-B369-F3F4EC68190E}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{D8A393C3-F3BB-459d-B369-F3F4EC68190E}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{D8A393C3-F3BB-459d-B369-F3F4EC68190E}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{D8A393C3-F3BB-459d-B369-F3F4EC68190E}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):void
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations1626" onclick="parent.toggleDiv('detailsDIVOperations1626','DetailsImageOperations1626')" />Details:
+						<div id="detailsDIVOperations1626" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			Function: void PORT_GroupToggle(PORT_GROUP group, uint32_t mask)&#160;&#160;Summary: Toggles the selected IO pins of a group.&#160;&#160;Description: This function toggles the selected output pins of a group. The mask parameter control the pins to be updated. A mask bit position with a value 1 will cause that corresponding port pin to be toggled.&#160;&#160;A mask bit position with a value 0 will cause the corresponding port pin to stay un-affected.&#160;&#160;Remarks: Refer plib_port.h file for more information.&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>PORT_GroupWrite</strong>(					<a href="#" onclick="parent.toggleData('param{8D643E1B-5F74-4139-A786-867F93AE5ACF}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../../../../../images/plus03.gif" align="absmiddle" id="param{8D643E1B-5F74-4139-A786-867F93AE5ACF}" border="0" />group: <a href="EA704.htm">PORT_GROUP</a></a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{8D643E1B-5F74-4139-A786-867F93AE5ACF}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{8D643E1B-5F74-4139-A786-867F93AE5ACF}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{8D643E1B-5F74-4139-A786-867F93AE5ACF}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{8D643E1B-5F74-4139-A786-867F93AE5ACF}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{DC5EE4FD-D535-4b2f-AEAA-4300C5BBB855}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../../../../../images/plus03.gif" align="absmiddle" id="param{DC5EE4FD-D535-4b2f-AEAA-4300C5BBB855}" border="0" />mask: uint32_t</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{DC5EE4FD-D535-4b2f-AEAA-4300C5BBB855}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{DC5EE4FD-D535-4b2f-AEAA-4300C5BBB855}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{DC5EE4FD-D535-4b2f-AEAA-4300C5BBB855}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{DC5EE4FD-D535-4b2f-AEAA-4300C5BBB855}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{A5081D9D-5513-4dc1-9C53-29D918B3A0C2}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../../../../../images/plus03.gif" align="absmiddle" id="param{A5081D9D-5513-4dc1-9C53-29D918B3A0C2}" border="0" />value: uint32_t</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{A5081D9D-5513-4dc1-9C53-29D918B3A0C2}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{A5081D9D-5513-4dc1-9C53-29D918B3A0C2}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{A5081D9D-5513-4dc1-9C53-29D918B3A0C2}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{A5081D9D-5513-4dc1-9C53-29D918B3A0C2}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):void
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations1627" onclick="parent.toggleDiv('detailsDIVOperations1627','DetailsImageOperations1627')" />Details:
+						<div id="detailsDIVOperations1627" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			Function: void PORT_GroupWrite(PORT_GROUP group, uint32_t mask, uint32_t value);&#160;&#160;Summary: Write value on the masked pins of the selected port group.&#160;&#160;Description: This function writes the value contained in the value parameter to the port group. Port group pins which are configured for output will be updated. The mask parameter provides additional control on the bits in the group to be affected. Setting a bit to 1 in the mask will cause the corresponding bit in the port group to be updated. Clearing a bit in the mask will cause that corresponding bit in the group to stay unaffected. For example, setting a mask value 0xFFFFFFFF will cause all bits in the port group to be updated. Setting a value 0x3 will only cause port group bit 0 and bit 1 to be updated.&#160;&#160;For port pins which are not configured for output and have the pull feature enabled, this function will affect pull value (pull up or pull down). A bit value of 1 will enable the pull up. A bit value of 0 will enable the pull down.&#160;&#160;Remarks: Refer plib_port.h file for more information.&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>PORT_Initialize</strong>():void
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations1628" onclick="parent.toggleDiv('detailsDIVOperations1628','DetailsImageOperations1628')" />Details:
+						<div id="detailsDIVOperations1628" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			Function:&#160;&#160;void PORT_Initialize(void)&#160;&#160;Summary: Initializes the PORT Library.&#160;&#160;Description: This function initializes all ports and pins as configured in the MHC Pin Manager.&#160;&#160;Remarks: Refer plib_port.h file for more information.&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public static</i><br />
+					<strong>PORT_PinClear</strong>(					<a href="#" onclick="parent.toggleData('param{C781A8F3-1EF8-4bdd-B3C5-3851CE88666C}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../../../../../images/plus03.gif" align="absmiddle" id="param{C781A8F3-1EF8-4bdd-B3C5-3851CE88666C}" border="0" />pin: <a href="EA706.htm">PORT_PIN</a></a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{C781A8F3-1EF8-4bdd-B3C5-3851CE88666C}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{C781A8F3-1EF8-4bdd-B3C5-3851CE88666C}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{C781A8F3-1EF8-4bdd-B3C5-3851CE88666C}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{C781A8F3-1EF8-4bdd-B3C5-3851CE88666C}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):void
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations1629" onclick="parent.toggleDiv('detailsDIVOperations1629','DetailsImageOperations1629')" />Details:
+						<div id="detailsDIVOperations1629" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i>Tags:</i><span style="margin-left: .7cm;"> </span></td>
+							<td>inline=true<br/></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>PORT_PinGPIOConfig</strong>(					<a href="#" onclick="parent.toggleData('param{74CCC94C-A67B-4c00-BE34-D7FA3962D3F0}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../../../../../images/plus03.gif" align="absmiddle" id="param{74CCC94C-A67B-4c00-BE34-D7FA3962D3F0}" border="0" />pin: <a href="EA706.htm">PORT_PIN</a></a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{74CCC94C-A67B-4c00-BE34-D7FA3962D3F0}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{74CCC94C-A67B-4c00-BE34-D7FA3962D3F0}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{74CCC94C-A67B-4c00-BE34-D7FA3962D3F0}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{74CCC94C-A67B-4c00-BE34-D7FA3962D3F0}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):void
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations1630" onclick="parent.toggleDiv('detailsDIVOperations1630','DetailsImageOperations1630')" />Details:
+						<div id="detailsDIVOperations1630" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			Function: void PORT_PinGPIOConfig(PORT_PIN pin)&#160;&#160;Summary: Configures the selected pin as GPIO&#160;&#160;Description: This function configures the given pin as GPIO.&#160;&#160;Remarks: Refer plib_port.h file for more information.&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public static</i><br />
+					<strong>PORT_PinInputEnable</strong>(					<a href="#" onclick="parent.toggleData('param{30E0CA38-6217-4148-9F07-F58C8023E401}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../../../../../images/plus03.gif" align="absmiddle" id="param{30E0CA38-6217-4148-9F07-F58C8023E401}" border="0" />pin: <a href="EA706.htm">PORT_PIN</a></a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{30E0CA38-6217-4148-9F07-F58C8023E401}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{30E0CA38-6217-4148-9F07-F58C8023E401}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{30E0CA38-6217-4148-9F07-F58C8023E401}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{30E0CA38-6217-4148-9F07-F58C8023E401}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):void
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations1631" onclick="parent.toggleDiv('detailsDIVOperations1631','DetailsImageOperations1631')" />Details:
+						<div id="detailsDIVOperations1631" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i>Tags:</i><span style="margin-left: .7cm;"> </span></td>
+							<td>inline=true<br/></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public static</i><br />
+					<strong>PORT_PinLatchRead</strong>(					<a href="#" onclick="parent.toggleData('param{357BC87C-F668-4976-9A66-1ADDFEF1CB68}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../../../../../images/plus03.gif" align="absmiddle" id="param{357BC87C-F668-4976-9A66-1ADDFEF1CB68}" border="0" />pin: <a href="EA706.htm">PORT_PIN</a></a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{357BC87C-F668-4976-9A66-1ADDFEF1CB68}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{357BC87C-F668-4976-9A66-1ADDFEF1CB68}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{357BC87C-F668-4976-9A66-1ADDFEF1CB68}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{357BC87C-F668-4976-9A66-1ADDFEF1CB68}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):bool
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations1632" onclick="parent.toggleDiv('detailsDIVOperations1632','DetailsImageOperations1632')" />Details:
+						<div id="detailsDIVOperations1632" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i>Tags:</i><span style="margin-left: .7cm;"> </span></td>
+							<td>inline=true<br/></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public static</i><br />
+					<strong>PORT_PinOutputEnable</strong>(					<a href="#" onclick="parent.toggleData('param{202A6754-3B80-4150-BF58-F979193AC670}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../../../../../images/plus03.gif" align="absmiddle" id="param{202A6754-3B80-4150-BF58-F979193AC670}" border="0" />pin: <a href="EA706.htm">PORT_PIN</a></a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{202A6754-3B80-4150-BF58-F979193AC670}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{202A6754-3B80-4150-BF58-F979193AC670}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{202A6754-3B80-4150-BF58-F979193AC670}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{202A6754-3B80-4150-BF58-F979193AC670}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):void
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations1633" onclick="parent.toggleDiv('detailsDIVOperations1633','DetailsImageOperations1633')" />Details:
+						<div id="detailsDIVOperations1633" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i>Tags:</i><span style="margin-left: .7cm;"> </span></td>
+							<td>inline=true<br/></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>PORT_PinPeripheralFunctionConfig</strong>(					<a href="#" onclick="parent.toggleData('param{777A4C8E-021A-42ff-9930-F6113DD1FDAE}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../../../../../images/plus03.gif" align="absmiddle" id="param{777A4C8E-021A-42ff-9930-F6113DD1FDAE}" border="0" />pin: <a href="EA706.htm">PORT_PIN</a></a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{777A4C8E-021A-42ff-9930-F6113DD1FDAE}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{777A4C8E-021A-42ff-9930-F6113DD1FDAE}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{777A4C8E-021A-42ff-9930-F6113DD1FDAE}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{777A4C8E-021A-42ff-9930-F6113DD1FDAE}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{001745D3-ECBF-4bcd-A259-2C911E5AA069}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../../../../../images/plus03.gif" align="absmiddle" id="param{001745D3-ECBF-4bcd-A259-2C911E5AA069}" border="0" />function: <a href="EA703.htm">PERIPHERAL_FUNCTION</a></a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{001745D3-ECBF-4bcd-A259-2C911E5AA069}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{001745D3-ECBF-4bcd-A259-2C911E5AA069}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{001745D3-ECBF-4bcd-A259-2C911E5AA069}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{001745D3-ECBF-4bcd-A259-2C911E5AA069}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):void
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations1634" onclick="parent.toggleDiv('detailsDIVOperations1634','DetailsImageOperations1634')" />Details:
+						<div id="detailsDIVOperations1634" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			Function: void PORT_PinPeripheralFunctionConfig(PORT_PIN pin, PERIPHERAL_FUNCTION function)&#160;&#160;Summary: Configures the peripheral function on the selected port pin&#160;&#160;Description: This function configures the selected peripheral function on the given port pin.&#160;&#160;Remarks: Refer plib_port.h file for more information.&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public static</i><br />
+					<strong>PORT_PinRead</strong>(					<a href="#" onclick="parent.toggleData('param{77323267-46B5-452e-BF51-56CCF9F96DDA}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../../../../../images/plus03.gif" align="absmiddle" id="param{77323267-46B5-452e-BF51-56CCF9F96DDA}" border="0" />pin: <a href="EA706.htm">PORT_PIN</a></a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{77323267-46B5-452e-BF51-56CCF9F96DDA}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{77323267-46B5-452e-BF51-56CCF9F96DDA}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{77323267-46B5-452e-BF51-56CCF9F96DDA}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{77323267-46B5-452e-BF51-56CCF9F96DDA}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):bool
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations1635" onclick="parent.toggleDiv('detailsDIVOperations1635','DetailsImageOperations1635')" />Details:
+						<div id="detailsDIVOperations1635" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i>Tags:</i><span style="margin-left: .7cm;"> </span></td>
+							<td>inline=true<br/></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public static</i><br />
+					<strong>PORT_PinSet</strong>(					<a href="#" onclick="parent.toggleData('param{4755695D-67DF-4ee6-9EC7-B0B6D89F2CF9}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../../../../../images/plus03.gif" align="absmiddle" id="param{4755695D-67DF-4ee6-9EC7-B0B6D89F2CF9}" border="0" />pin: <a href="EA706.htm">PORT_PIN</a></a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{4755695D-67DF-4ee6-9EC7-B0B6D89F2CF9}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{4755695D-67DF-4ee6-9EC7-B0B6D89F2CF9}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{4755695D-67DF-4ee6-9EC7-B0B6D89F2CF9}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{4755695D-67DF-4ee6-9EC7-B0B6D89F2CF9}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):void
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations1636" onclick="parent.toggleDiv('detailsDIVOperations1636','DetailsImageOperations1636')" />Details:
+						<div id="detailsDIVOperations1636" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i>Tags:</i><span style="margin-left: .7cm;"> </span></td>
+							<td>inline=true<br/></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public static</i><br />
+					<strong>PORT_PinToggle</strong>(					<a href="#" onclick="parent.toggleData('param{D6CA663F-7617-43cc-A32C-E2B80E139932}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../../../../../images/plus03.gif" align="absmiddle" id="param{D6CA663F-7617-43cc-A32C-E2B80E139932}" border="0" />pin: <a href="EA706.htm">PORT_PIN</a></a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{D6CA663F-7617-43cc-A32C-E2B80E139932}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{D6CA663F-7617-43cc-A32C-E2B80E139932}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{D6CA663F-7617-43cc-A32C-E2B80E139932}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{D6CA663F-7617-43cc-A32C-E2B80E139932}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):void
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations1637" onclick="parent.toggleDiv('detailsDIVOperations1637','DetailsImageOperations1637')" />Details:
+						<div id="detailsDIVOperations1637" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i>Tags:</i><span style="margin-left: .7cm;"> </span></td>
+							<td>inline=true<br/></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public static</i><br />
+					<strong>PORT_PinWrite</strong>(					<a href="#" onclick="parent.toggleData('param{0A39E37E-27EF-475d-86A7-19AC851CA6F0}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../../../../../images/plus03.gif" align="absmiddle" id="param{0A39E37E-27EF-475d-86A7-19AC851CA6F0}" border="0" />pin: <a href="EA706.htm">PORT_PIN</a></a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{0A39E37E-27EF-475d-86A7-19AC851CA6F0}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{0A39E37E-27EF-475d-86A7-19AC851CA6F0}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{0A39E37E-27EF-475d-86A7-19AC851CA6F0}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{0A39E37E-27EF-475d-86A7-19AC851CA6F0}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{71D95396-440D-4917-BB4F-E5B6EF32E2DC}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../../../../../images/plus03.gif" align="absmiddle" id="param{71D95396-440D-4917-BB4F-E5B6EF32E2DC}" border="0" />value: bool</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{71D95396-440D-4917-BB4F-E5B6EF32E2DC}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{71D95396-440D-4917-BB4F-E5B6EF32E2DC}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{71D95396-440D-4917-BB4F-E5B6EF32E2DC}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{71D95396-440D-4917-BB4F-E5B6EF32E2DC}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):void
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations1638" onclick="parent.toggleDiv('detailsDIVOperations1638','DetailsImageOperations1638')" />Details:
+						<div id="detailsDIVOperations1638" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i>Tags:</i><span style="margin-left: .7cm;"> </span></td>
+							<td>inline=true<br/></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+
+		</table>
+</div>		<div class="ItemBody" id="MessagesFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Message</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../../../../EA1/EA1/EA606.htm">Application</a></td>
+					<td width="50%" class="TableRow" valign="top">PORT_Initialize()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1639" onclick="parent.toggleDiv('detailsDIVMessage1639', 'DetailsImageMessage1639')" />Details:
+							<div id="detailsDIVMessage1639" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="CustomPropertiesTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Property</td>
+					<td width="70%" class="TableHeading">Value</td>
+				</tr>
+			<tr>
+				<td width="30%" class="TableRow">isFinalSpecialization:</td>
+				<td width="70%" class="TableRow">0</td>
+			</tr>
+
+
+			</table>
+		</div>	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>

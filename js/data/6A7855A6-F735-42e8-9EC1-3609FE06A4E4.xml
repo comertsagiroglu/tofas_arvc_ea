@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.2.2.1.1.1.9:1", "", "wdt", "EARoot/EA1/EA7/EA2/EA1/EA2/EA2/EA2/EA1/EA1/EA1/EA9/EA770.htm", "175.png", "67", "0", "", "Logical diagram0","{29CBE9C8-C8A9-4200-A3B4-B3D189A4E694}");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.2.2.1.1.1.9:2", "", "plib_wdt", "EARoot/EA1/EA7/EA2/EA1/EA2/EA2/EA2/EA1/EA1/EA1/EA9/EA773.htm", "5.png", "E513", "0", "", "Class0","{2EC9E4A6-C3CE-4d14-BA80-6F6367A581E4}");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.2.2.1.1.1.9:3", "", "WDT_Clear", "EARoot/EA1/EA7/EA2/EA1/EA2/EA2/EA2/EA1/EA1/EA1/EA9/EA774.htm", "112.png", "E1226", "E513", "", "ProvidedInterface0","{860C4CE3-B20F-4c39-ADBE-DBEFECAF4A0B}");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.2.2.1.1.1.9:4", "", "WDT_Enable", "EARoot/EA1/EA7/EA2/EA1/EA2/EA2/EA2/EA1/EA1/EA1/EA9/EA775.htm", "112.png", "E1225", "E513", "", "ProvidedInterface0","{DDF6FABD-395C-4c44-BD33-CD6C7C035BDF}");

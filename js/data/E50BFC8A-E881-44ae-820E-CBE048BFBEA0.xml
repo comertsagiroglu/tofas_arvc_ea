@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.2.2.1.1.1.1:1", "", "clock", "EARoot/EA1/EA7/EA2/EA1/EA2/EA2/EA2/EA1/EA1/EA1/EA1/EA672.htm", "175.png", "57", "0", "", "Logical diagram0","{D109A6F7-3808-409d-8571-A8C4548E5EEA}");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.2.2.1.1.1.1:2", "", "plib_clock", "EARoot/EA1/EA7/EA2/EA1/EA2/EA2/EA2/EA1/EA1/EA1/EA1/EA675.htm", "5.png", "E464", "0", "", "Class0","{C3A10B97-A62D-4491-90FF-05BDCE5C4AEF}");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.2.2.1.1.1.1:3", "", "CLOCK_Initialize", "EARoot/EA1/EA7/EA2/EA1/EA2/EA2/EA2/EA1/EA1/EA1/EA1/EA676.htm", "112.png", "E1185", "E464", "", "ProvidedInterface0","{5D3E7245-5532-4ea7-9F68-D91BBD235558}");

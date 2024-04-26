@@ -1,0 +1,7 @@
+tocTab[tocTab.length] = new Array("0.1.7.1.1:1", "", "Interface Specifications", "EARoot/EA1/EA7/EA1/EA1/EA308.htm", "175.png", "19", "0", "", "Logical diagram0","{31874EB4-3DDE-4adb-8CD8-03F299F3C79B}");
+tocTab[tocTab.length] = new Array("0.1.7.1.1:2", "", "«InterfaceBlock» I2C_Master", "EARoot/EA1/EA7/EA1/EA1/EA311.htm", "5.png", "E97", "0", "", "Class0","{BE8B4960-6817-40be-A665-C24F7ECC171A}");
+tocTab[tocTab.length] = new Array("0.1.7.1.1:3", "", "«InterfaceBlock» I2C_Slave", "EARoot/EA1/EA7/EA1/EA1/EA312.htm", "5.png", "E99", "0", "", "Class0","{F3843C66-D024-4251-B388-FE435B5E3BFA}");
+tocTab[tocTab.length] = new Array("0.1.7.1.1:4", "", "«InterfaceBlock» LIN", "EARoot/EA1/EA7/EA1/EA1/EA313.htm", "5.png", "E100", "0", "", "Class0","{FEB6C60E-428F-4bc2-8EE9-EC0921B043A5}");
+tocTab[tocTab.length] = new Array("0.1.7.1.1:5", "", "«InterfaceBlock» SPI", "EARoot/EA1/EA7/EA1/EA1/EA314.htm", "5.png", "E98", "0", "", "Class0","{603A8B15-DD4C-48c8-A5BF-3A06B9071CE9}");
+tocTab[tocTab.length] = new Array("0.1.7.1.1:6", "", "«InterfaceBlock» UART", "EARoot/EA1/EA7/EA1/EA1/EA315.htm", "5.png", "E101", "0", "", "Class0","{F25FF612-CC49-4bab-86D8-334E9077756E}");
+tocTab[tocTab.length] = new Array("0.1.7.1.1:7", "", "«InterfaceBlock» Video", "EARoot/EA1/EA7/EA1/EA1/EA316.htm", "5.png", "E106", "0", "", "Class0","{4BD8BC6E-18A9-4eb8-ABCB-B52837069C7D}");

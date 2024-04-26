@@ -1,0 +1,10 @@
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.1.2.1.1:1", "", "default", "EARoot/EA1/EA7/EA2/EA1/EA2/EA1/EA2/EA1/EA1/EA356.htm", "175.png", "72", "0", "", "Logical diagram0","{016AE846-30D4-46b4-96C6-E3A666C2A5AE}");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.1.2.1.1:2", "", "definitions", "EARoot/EA1/EA7/EA2/EA1/EA2/EA1/EA2/EA1/EA1/EA359.htm", "5.png", "E627", "0", "", "Class0","{6ED65791-A780-4ae5-9867-FF23D292BD90}");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.1.2.1.1:3", "", "device", "EARoot/EA1/EA7/EA2/EA1/EA2/EA1/EA2/EA1/EA1/EA360.htm", "5.png", "E628", "0", "", "Class0","{7F66C9F2-C04B-44a4-8266-674D158530AA}");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.1.2.1.1:4", "", "device_cache", "EARoot/EA1/EA7/EA2/EA1/EA2/EA1/EA2/EA1/EA1/EA361.htm", "5.png", "E629", "0", "", "Class0","{7C75D69B-6EF2-428d-A50B-D83E674A8B0D}");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.1.2.1.1:5", "", "device_vectors", "EARoot/EA1/EA7/EA2/EA1/EA2/EA1/EA2/EA1/EA1/EA362.htm", "5.png", "E631", "0", "", "Class0","{AC629FE1-F7B4-411b-9E30-603B762F925F}");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.1.2.1.1:6", "", "interrupts", "EARoot/EA1/EA7/EA2/EA1/EA2/EA1/EA2/EA1/EA1/EA363.htm", "5.png", "E632", "0", "", "Class0","{3DB08B2A-7390-4336-A065-E45A28EF8B30}");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.1.2.1.1:7", "", "toolchain_specifics", "EARoot/EA1/EA7/EA2/EA1/EA2/EA1/EA2/EA1/EA1/EA365.htm", "5.png", "E633", "0", "", "Class0","{7D872610-E625-489d-A6E3-D92DB2EA27FA}");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.1.2.1.1:8", "", "SYS_Initialize", "EARoot/EA1/EA7/EA2/EA1/EA2/EA1/EA2/EA1/EA1/EA366.htm", "112.png", "E1166", "E627", "", "ProvidedInterface0","{F6D38B91-239A-47b8-8EE6-05CB14032F50}");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.1.2.1.1:9", "", "«struct» H3DeviceVectorsTag", "EARoot/EA1/EA7/EA2/EA1/EA2/EA1/EA2/EA1/EA1/EA367.htm", "5.png", "E630", "E631", "", "Class0","{B109DE0C-2825-4385-969C-56852F526273}");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.1.2.1.1.1", "1", "peripheral", "EARoot/EA1/EA7/EA2/EA1/EA2/EA1/EA2/EA1/EA1/EA1/EA370.htm", "4.png", "", "", "{0D186E2A-391C-4751-9DB3-4CAE102E1A0A}", "Package");

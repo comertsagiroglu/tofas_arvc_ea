@@ -1,0 +1,10 @@
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.2.2.1.1.1:1", "", "peripheral", "EARoot/EA1/EA7/EA2/EA1/EA2/EA2/EA2/EA1/EA1/EA1/EA660.htm", "175.png", "56", "0", "", "Logical diagram0","{1F8FB385-16DA-4977-9DFB-876678D86280}");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.2.2.1.1.1.1", "1", "clock", "EARoot/EA1/EA7/EA2/EA1/EA2/EA2/EA2/EA1/EA1/EA1/EA1/EA674.htm", "4.png", "", "", "{E50BFC8A-E881-44ae-820E-CBE048BFBEA0}", "Package");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.2.2.1.1.1.2", "1", "evsys", "EARoot/EA1/EA7/EA2/EA1/EA2/EA2/EA2/EA1/EA1/EA1/EA2/EA679.htm", "4.png", "", "", "{DEF64D17-9376-4baa-8111-82D9DA8CD75C}", "Package");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.2.2.1.1.1.3", "1", "nvic", "EARoot/EA1/EA7/EA2/EA1/EA2/EA2/EA2/EA1/EA1/EA1/EA3/EA684.htm", "4.png", "", "", "{AEA486CD-1FF8-43b3-9D8D-9E0EBB968F6B}", "Package");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.2.2.1.1.1.4", "1", "nvmctrl", "EARoot/EA1/EA7/EA2/EA1/EA2/EA2/EA2/EA1/EA1/EA1/EA4/EA688.htm", "4.png", "", "", "{FFB1FCC4-87A9-4df8-B500-A8078C618DA1}", "Package");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.2.2.1.1.1.5", "1", "port", "EARoot/EA1/EA7/EA2/EA1/EA2/EA2/EA2/EA1/EA1/EA1/EA5/EA701.htm", "4.png", "", "", "{963F79EE-434C-4a7f-84E9-2DF4167FF177}", "Package");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.2.2.1.1.1.6", "1", "sercom", "EARoot/EA1/EA7/EA2/EA1/EA2/EA2/EA2/EA1/EA1/EA1/EA6/EA709.htm", "4.png", "", "", "{424746BB-EA01-44b7-9CC7-5DA48B0182BB}", "Package");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.2.2.1.1.1.7", "1", "systick", "EARoot/EA1/EA7/EA2/EA1/EA2/EA2/EA2/EA1/EA1/EA1/EA7/EA750.htm", "4.png", "", "", "{7A108F12-8DA7-47d2-8289-9C77EE88D166}", "Package");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.2.2.1.1.1.8", "1", "tc", "EARoot/EA1/EA7/EA2/EA1/EA2/EA2/EA2/EA1/EA1/EA1/EA8/EA760.htm", "4.png", "", "", "{02603C87-440E-45cd-8EE0-6065CD244566}", "Package");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.2.2.1.1.1.9", "1", "wdt", "EARoot/EA1/EA7/EA2/EA1/EA2/EA2/EA2/EA1/EA1/EA1/EA9/EA772.htm", "4.png", "", "", "{6A7855A6-F735-42e8-9EC1-3609FE06A4E4}", "Package");

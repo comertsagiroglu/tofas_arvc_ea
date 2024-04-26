@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.1.7.3.1:1", "", "Sequence Diagrams", "EARoot/EA1/EA7/EA3/EA1/EA937.htm", "185.png", "105", "0", "", "Sequence diagram0","{B25EFABF-D2D1-4ffe-A3CA-D23043A8FDC2}");
+tocTab[tocTab.length] = new Array("0.1.7.3.1.1", "1", "Boot Sequence", "EARoot/EA1/EA7/EA3/EA1/EA1/EA944.htm", "4.png", "", "", "{7C8EC8BD-B8DC-48d9-8B64-CAEBB4668D23}", "Package");
+tocTab[tocTab.length] = new Array("0.1.7.3.1.2", "1", "Normal Operation", "EARoot/EA1/EA7/EA3/EA1/EA2/EA961.htm", "4.png", "", "", "{F15AB00B-F904-41b2-8717-608F209F58A6}", "Package");

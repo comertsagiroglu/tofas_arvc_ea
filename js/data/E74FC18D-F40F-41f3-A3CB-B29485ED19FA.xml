@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.1.2.1.1.1.3:1", "", "nvic", "EARoot/EA1/EA7/EA2/EA1/EA2/EA1/EA2/EA1/EA1/EA1/EA3/EA388.htm", "175.png", "76", "0", "", "Logical diagram0","{2ADAF863-8907-4851-B803-2198DB772F59}");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.1.2.1.1.1.3:2", "", "plib_nvic", "EARoot/EA1/EA7/EA2/EA1/EA2/EA1/EA2/EA1/EA1/EA1/EA3/EA391.htm", "5.png", "E602", "0", "", "Class0","{0295C40F-6D3B-4871-BDD0-8C29E2E0F585}");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.1.2.1.1.1.3:3", "", "NVIC_Initialize", "EARoot/EA1/EA7/EA2/EA1/EA2/EA1/EA2/EA1/EA1/EA1/EA3/EA392.htm", "112.png", "E1197", "E602", "", "ProvidedInterface0","{FD1B5514-8CA9-4783-8374-3435E6C654AF}");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.1.2.1.1.1.3:4", "", "NVIC_Initialize", "EARoot/EA1/EA7/EA2/EA1/EA2/EA1/EA2/EA1/EA1/EA1/EA3/EA393.htm", "112.png", "E1211", "E602", "", "ProvidedInterface0","{D2F3416A-6344-4a7c-8251-7C3BE614D2CE}");

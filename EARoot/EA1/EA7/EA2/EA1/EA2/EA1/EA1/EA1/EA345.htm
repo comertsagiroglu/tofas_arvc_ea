@@ -1,0 +1,810 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>src::fw_update</title>
+<link href="../../../../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("fw_update", " : "))</script>  : Public   Class</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">15.04.2024 23:39:23</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">15.04.2024 23:39:23</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">comert</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{B3B2070E-4C7F-42ce-BA14-474CF8BB96F4}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA342.htm">src</a>, <a href="../../../../../../../EA6/EA4/EA1/EA2/EA111.htm">Bootloader SW-SW ID</a>, <a href="../../../../../../EA3/EA1/EA1/EA1/EA949.htm">BL: Boot</a></td>
+		</tr>
+	</table>
+	
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('Operations');" id="OperationsTitle">Operations</li>
+			<li onClick="parent.toggleItem('MessagesTo');" id="MessagesToTitle">Messages To</li>
+			<li onClick="parent.toggleItem('MessagesFrom');" id="MessagesFromTitle">Messages From</li>
+			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+		</ul>
+<div class="ItemBody" id="OperationsTable">
+	<table border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="100%" class="TableHeading">Operation</td>
+		</tr>
+						<tr>
+				<td width="100%" class="TableRow">
+					<i>Private static</i><br />
+					<strong>_calculateNVMChecksum</strong>(					<a href="#" onclick="parent.toggleData('param{C6B67F63-941F-4d55-BF69-6787A08E20EF}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../../images/plus03.gif" align="absmiddle" id="param{C6B67F63-941F-4d55-BF69-6787A08E20EF}" border="0" />data[PAGE_SIZE_WORD]: uint32_t</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{C6B67F63-941F-4d55-BF69-6787A08E20EF}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{C6B67F63-941F-4d55-BF69-6787A08E20EF}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{C6B67F63-941F-4d55-BF69-6787A08E20EF}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{C6B67F63-941F-4d55-BF69-6787A08E20EF}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):uint32_t
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations35" onclick="parent.toggleDiv('detailsDIVOperations35','DetailsImageOperations35')" />Details:
+						<div id="detailsDIVOperations35" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Private static</i><br />
+					<strong>_swapFirmware</strong>(					<a href="#" onclick="parent.toggleData('param{94D0EC0D-44E2-4f11-832E-5BE52796C218}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../../images/plus03.gif" align="absmiddle" id="param{94D0EC0D-44E2-4f11-832E-5BE52796C218}" border="0" />file_size: uint32_t</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{94D0EC0D-44E2-4f11-832E-5BE52796C218}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{94D0EC0D-44E2-4f11-832E-5BE52796C218}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{94D0EC0D-44E2-4f11-832E-5BE52796C218}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{94D0EC0D-44E2-4f11-832E-5BE52796C218}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):void
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations36" onclick="parent.toggleDiv('detailsDIVOperations36','DetailsImageOperations36')" />Details:
+						<div id="detailsDIVOperations36" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Private static</i><br />
+					<strong>_updateStatusRead</strong>(					<a href="#" onclick="parent.toggleData('param{D7AFEFA2-A61C-44e1-B2BA-B2A0BA4421E3}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../../images/plus03.gif" align="absmiddle" id="param{D7AFEFA2-A61C-44e1-B2BA-B2A0BA4421E3}" border="0" />update_info: updateInfo_t*</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{D7AFEFA2-A61C-44e1-B2BA-B2A0BA4421E3}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{D7AFEFA2-A61C-44e1-B2BA-B2A0BA4421E3}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{D7AFEFA2-A61C-44e1-B2BA-B2A0BA4421E3}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{D7AFEFA2-A61C-44e1-B2BA-B2A0BA4421E3}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):uint8_t
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations37" onclick="parent.toggleDiv('detailsDIVOperations37','DetailsImageOperations37')" />Details:
+						<div id="detailsDIVOperations37" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Private</i><br />
+					<strong>fw_update_handle</strong>(					<a href="#" onclick="parent.toggleData('param{DCC12F26-79D2-4c93-8FA3-C6C162FA64F7}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../../images/plus03.gif" align="absmiddle" id="param{DCC12F26-79D2-4c93-8FA3-C6C162FA64F7}" border="0" />update_info: updateInfo_t*</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{DCC12F26-79D2-4c93-8FA3-C6C162FA64F7}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{DCC12F26-79D2-4c93-8FA3-C6C162FA64F7}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{DCC12F26-79D2-4c93-8FA3-C6C162FA64F7}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{DCC12F26-79D2-4c93-8FA3-C6C162FA64F7}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):void
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations38" onclick="parent.toggleDiv('detailsDIVOperations38','DetailsImageOperations38')" />Details:
+						<div id="detailsDIVOperations38" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Private</i><br />
+					<strong>updateStatusChange</strong>(					<a href="#" onclick="parent.toggleData('param{C9610F12-BE42-4278-9365-64D71EDED468}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../../images/plus03.gif" align="absmiddle" id="param{C9610F12-BE42-4278-9365-64D71EDED468}" border="0" />update_info: updateInfo_t*</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{C9610F12-BE42-4278-9365-64D71EDED468}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{C9610F12-BE42-4278-9365-64D71EDED468}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{C9610F12-BE42-4278-9365-64D71EDED468}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{C9610F12-BE42-4278-9365-64D71EDED468}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):uint8_t
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations39" onclick="parent.toggleDiv('detailsDIVOperations39','DetailsImageOperations39')" />Details:
+						<div id="detailsDIVOperations39" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+
+		</table>
+</div>		<div class="ItemBody" id="MessagesToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Message</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA2/EA1/EA1/EA1/EA4/EA397.htm">plib_nvmctrl</a></td>
+					<td width="50%" class="TableRow" valign="top">NVMCTRL_IsBusy()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage40" onclick="parent.toggleDiv('detailsDIVMessage40', 'DetailsImageMessage40')" />Details:
+							<div id="detailsDIVMessage40" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA2/EA1/EA1/EA1/EA4/EA397.htm">plib_nvmctrl</a></td>
+					<td width="50%" class="TableRow" valign="top">NVMCTRL_RowErase(uint32_t)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage41" onclick="parent.toggleDiv('detailsDIVMessage41', 'DetailsImageMessage41')" />Details:
+							<div id="detailsDIVMessage41" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA345.htm">fw_update</a></td>
+					<td width="50%" class="TableRow" valign="top">_calculateNVMChecksum(uint32_t)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage42" onclick="parent.toggleDiv('detailsDIVMessage42', 'DetailsImageMessage42')" />Details:
+							<div id="detailsDIVMessage42" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA2/EA1/EA1/EA1/EA4/EA397.htm">plib_nvmctrl</a></td>
+					<td width="50%" class="TableRow" valign="top">NVMCTRL_IsBusy()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage43" onclick="parent.toggleDiv('detailsDIVMessage43', 'DetailsImageMessage43')" />Details:
+							<div id="detailsDIVMessage43" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA345.htm">fw_update</a></td>
+					<td width="50%" class="TableRow" valign="top">_updateStatusRead(updateInfo_t*)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage44" onclick="parent.toggleDiv('detailsDIVMessage44', 'DetailsImageMessage44')" />Details:
+							<div id="detailsDIVMessage44" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA2/EA1/EA1/EA1/EA4/EA397.htm">plib_nvmctrl</a></td>
+					<td width="50%" class="TableRow" valign="top">NVMCTRL_RWWEEPROM_Read(uint32_t*,  uint32_t,  uint32_t)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage45" onclick="parent.toggleDiv('detailsDIVMessage45', 'DetailsImageMessage45')" />Details:
+							<div id="detailsDIVMessage45" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA2/EA1/EA1/EA1/EA4/EA397.htm">plib_nvmctrl</a></td>
+					<td width="50%" class="TableRow" valign="top">NVMCTRL_IsBusy()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage46" onclick="parent.toggleDiv('detailsDIVMessage46', 'DetailsImageMessage46')" />Details:
+							<div id="detailsDIVMessage46" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA2/EA1/EA1/EA1/EA4/EA397.htm">plib_nvmctrl</a></td>
+					<td width="50%" class="TableRow" valign="top">NVMCTRL_PageWrite(uint32_t*,  uint32_t)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage47" onclick="parent.toggleDiv('detailsDIVMessage47', 'DetailsImageMessage47')" />Details:
+							<div id="detailsDIVMessage47" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA2/EA1/EA1/EA1/EA4/EA397.htm">plib_nvmctrl</a></td>
+					<td width="50%" class="TableRow" valign="top">NVMCTRL_PageWrite(uint32_t*,  uint32_t)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage48" onclick="parent.toggleDiv('detailsDIVMessage48', 'DetailsImageMessage48')" />Details:
+							<div id="detailsDIVMessage48" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA2/EA1/EA1/EA1/EA4/EA397.htm">plib_nvmctrl</a></td>
+					<td width="50%" class="TableRow" valign="top">NVMCTRL_IsBusy()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage49" onclick="parent.toggleDiv('detailsDIVMessage49', 'DetailsImageMessage49')" />Details:
+							<div id="detailsDIVMessage49" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA2/EA1/EA1/EA1/EA4/EA397.htm">plib_nvmctrl</a></td>
+					<td width="50%" class="TableRow" valign="top">NVMCTRL_Read(uint32_t*,  uint32_t,  uint32_t)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage50" onclick="parent.toggleDiv('detailsDIVMessage50', 'DetailsImageMessage50')" />Details:
+							<div id="detailsDIVMessage50" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA2/EA1/EA1/EA1/EA4/EA397.htm">plib_nvmctrl</a></td>
+					<td width="50%" class="TableRow" valign="top">NVMCTRL_IsBusy()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage51" onclick="parent.toggleDiv('detailsDIVMessage51', 'DetailsImageMessage51')" />Details:
+							<div id="detailsDIVMessage51" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA345.htm">fw_update</a></td>
+					<td width="50%" class="TableRow" valign="top">_updateStatusRead(updateInfo_t*)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage52" onclick="parent.toggleDiv('detailsDIVMessage52', 'DetailsImageMessage52')" />Details:
+							<div id="detailsDIVMessage52" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA2/EA1/EA1/EA1/EA4/EA397.htm">plib_nvmctrl</a></td>
+					<td width="50%" class="TableRow" valign="top">NVMCTRL_PageWrite(uint32_t*,  uint32_t)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage53" onclick="parent.toggleDiv('detailsDIVMessage53', 'DetailsImageMessage53')" />Details:
+							<div id="detailsDIVMessage53" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA2/EA1/EA1/EA1/EA4/EA397.htm">plib_nvmctrl</a></td>
+					<td width="50%" class="TableRow" valign="top">NVMCTRL_IsBusy()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage54" onclick="parent.toggleDiv('detailsDIVMessage54', 'DetailsImageMessage54')" />Details:
+							<div id="detailsDIVMessage54" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA2/EA1/EA1/EA1/EA4/EA397.htm">plib_nvmctrl</a></td>
+					<td width="50%" class="TableRow" valign="top">NVMCTRL_IsBusy()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage55" onclick="parent.toggleDiv('detailsDIVMessage55', 'DetailsImageMessage55')" />Details:
+							<div id="detailsDIVMessage55" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA2/EA1/EA1/EA1/EA4/EA397.htm">plib_nvmctrl</a></td>
+					<td width="50%" class="TableRow" valign="top">NVMCTRL_RowErase(uint32_t)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage56" onclick="parent.toggleDiv('detailsDIVMessage56', 'DetailsImageMessage56')" />Details:
+							<div id="detailsDIVMessage56" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA2/EA1/EA1/EA1/EA4/EA397.htm">plib_nvmctrl</a></td>
+					<td width="50%" class="TableRow" valign="top">NVMCTRL_Read(uint32_t*,  uint32_t,  uint32_t)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage57" onclick="parent.toggleDiv('detailsDIVMessage57', 'DetailsImageMessage57')" />Details:
+							<div id="detailsDIVMessage57" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA345.htm">fw_update</a></td>
+					<td width="50%" class="TableRow" valign="top">_swapFirmware(uint32_t)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage58" onclick="parent.toggleDiv('detailsDIVMessage58', 'DetailsImageMessage58')" />Details:
+							<div id="detailsDIVMessage58" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA2/EA1/EA1/EA1/EA4/EA397.htm">plib_nvmctrl</a></td>
+					<td width="50%" class="TableRow" valign="top">NVMCTRL_IsBusy()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage59" onclick="parent.toggleDiv('detailsDIVMessage59', 'DetailsImageMessage59')" />Details:
+							<div id="detailsDIVMessage59" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA2/EA1/EA1/EA1/EA4/EA397.htm">plib_nvmctrl</a></td>
+					<td width="50%" class="TableRow" valign="top">NVMCTRL_IsBusy()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage60" onclick="parent.toggleDiv('detailsDIVMessage60', 'DetailsImageMessage60')" />Details:
+							<div id="detailsDIVMessage60" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA2/EA1/EA1/EA1/EA4/EA397.htm">plib_nvmctrl</a></td>
+					<td width="50%" class="TableRow" valign="top">NVMCTRL_RowErase(uint32_t)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage61" onclick="parent.toggleDiv('detailsDIVMessage61', 'DetailsImageMessage61')" />Details:
+							<div id="detailsDIVMessage61" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA345.htm">fw_update</a></td>
+					<td width="50%" class="TableRow" valign="top">_calculateNVMChecksum(uint32_t)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage62" onclick="parent.toggleDiv('detailsDIVMessage62', 'DetailsImageMessage62')" />Details:
+							<div id="detailsDIVMessage62" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA2/EA1/EA1/EA1/EA4/EA397.htm">plib_nvmctrl</a></td>
+					<td width="50%" class="TableRow" valign="top">NVMCTRL_Read(uint32_t*,  uint32_t,  uint32_t)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage63" onclick="parent.toggleDiv('detailsDIVMessage63', 'DetailsImageMessage63')" />Details:
+							<div id="detailsDIVMessage63" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA2/EA1/EA1/EA1/EA4/EA397.htm">plib_nvmctrl</a></td>
+					<td width="50%" class="TableRow" valign="top">NVMCTRL_IsBusy()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage64" onclick="parent.toggleDiv('detailsDIVMessage64', 'DetailsImageMessage64')" />Details:
+							<div id="detailsDIVMessage64" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="MessagesFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Message</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA345.htm">fw_update</a></td>
+					<td width="50%" class="TableRow" valign="top">_calculateNVMChecksum(uint32_t)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage65" onclick="parent.toggleDiv('detailsDIVMessage65', 'DetailsImageMessage65')" />Details:
+							<div id="detailsDIVMessage65" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA345.htm">fw_update</a></td>
+					<td width="50%" class="TableRow" valign="top">_updateStatusRead(updateInfo_t*)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage66" onclick="parent.toggleDiv('detailsDIVMessage66', 'DetailsImageMessage66')" />Details:
+							<div id="detailsDIVMessage66" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA346.htm">main</a></td>
+					<td width="50%" class="TableRow" valign="top">updateStatusChange(updateInfo_t*)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage67" onclick="parent.toggleDiv('detailsDIVMessage67', 'DetailsImageMessage67')" />Details:
+							<div id="detailsDIVMessage67" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA345.htm">fw_update</a></td>
+					<td width="50%" class="TableRow" valign="top">_updateStatusRead(updateInfo_t*)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage68" onclick="parent.toggleDiv('detailsDIVMessage68', 'DetailsImageMessage68')" />Details:
+							<div id="detailsDIVMessage68" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA345.htm">fw_update</a></td>
+					<td width="50%" class="TableRow" valign="top">_swapFirmware(uint32_t)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage69" onclick="parent.toggleDiv('detailsDIVMessage69', 'DetailsImageMessage69')" />Details:
+							<div id="detailsDIVMessage69" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA346.htm">main</a></td>
+					<td width="50%" class="TableRow" valign="top">fw_update_handle(updateInfo_t*)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage70" onclick="parent.toggleDiv('detailsDIVMessage70', 'DetailsImageMessage70')" />Details:
+							<div id="detailsDIVMessage70" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA345.htm">fw_update</a></td>
+					<td width="50%" class="TableRow" valign="top">_calculateNVMChecksum(uint32_t)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage71" onclick="parent.toggleDiv('detailsDIVMessage71', 'DetailsImageMessage71')" />Details:
+							<div id="detailsDIVMessage71" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="CustomPropertiesTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Property</td>
+					<td width="70%" class="TableHeading">Value</td>
+				</tr>
+			<tr>
+				<td width="30%" class="TableRow">isFinalSpecialization:</td>
+				<td width="70%" class="TableRow">0</td>
+			</tr>
+
+
+			</table>
+		</div>	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>

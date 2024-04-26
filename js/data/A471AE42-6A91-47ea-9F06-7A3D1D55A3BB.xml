@@ -1,0 +1,8 @@
+tocTab[tocTab.length] = new Array("0.1.5:1", "", "Use Cases", "EARoot/EA1/EA5/EA66.htm", "176.png", "8", "0", "", "Package diagram0","{8FBAD8BB-25FB-4584-BD28-9B7892551D3A}");
+tocTab[tocTab.length] = new Array("0.1.5:2", "", "Use Cases x Requirement Traceability", "EARoot/EA1/EA5/EA68.htm", "180.png", "7", "0", "", "Use Case diagram0","{F6ED9F30-8152-4886-B0A9-E0FA02172438}");
+tocTab[tocTab.length] = new Array("0.1.5:3", "", "BCM", "EARoot/EA1/EA5/EA72.htm", "6.png", "E77", "0", "", "Actor0","{9A558828-49B8-4eb9-9AF7-8BE804574CFA}");
+tocTab[tocTab.length] = new Array("0.1.5:4", "", "Capture Image", "EARoot/EA1/EA5/EA73.htm", "7.png", "E78", "0", "", "UseCase0","{0123FF48-582E-4799-91CF-12837A34F192}");
+tocTab[tocTab.length] = new Array("0.1.5:5", "", "Configure Sensor", "EARoot/EA1/EA5/EA74.htm", "7.png", "E81", "0", "", "UseCase0","{8C52ADA4-0977-4291-8B80-FE1AE713CE20}");
+tocTab[tocTab.length] = new Array("0.1.5:6", "", "Manage LIN Communication", "EARoot/EA1/EA5/EA75.htm", "7.png", "E82", "0", "", "UseCase0","{E5331E89-F4CE-4b90-A6F6-0A74BECAC5A4}");
+tocTab[tocTab.length] = new Array("0.1.5:7", "", "Overlay Image", "EARoot/EA1/EA5/EA76.htm", "7.png", "E79", "0", "", "UseCase0","{54ECD489-9964-4a11-804D-8C14F96576A9}");
+tocTab[tocTab.length] = new Array("0.1.5:8", "", "Update Firmware", "EARoot/EA1/EA5/EA77.htm", "7.png", "E80", "0", "", "UseCase0","{95CA660B-FE59-42b6-B98D-3DAD5161FEEB}");

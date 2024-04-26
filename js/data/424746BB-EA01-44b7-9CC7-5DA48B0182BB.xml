@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.2.2.1.1.1.6:1", "", "sercom", "EARoot/EA1/EA7/EA2/EA1/EA2/EA2/EA2/EA1/EA1/EA1/EA6/EA707.htm", "175.png", "62", "0", "", "Logical diagram0","{6FA01E19-1646-44b3-A958-0AF9BC3AEC1E}");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.2.2.1.1.1.6.1", "1", "i2c_master", "EARoot/EA1/EA7/EA2/EA1/EA2/EA2/EA2/EA1/EA1/EA1/EA6/EA1/EA714.htm", "4.png", "", "", "{7FC75580-3BD7-44d1-9A48-E6C135B5BC49}", "Package");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.2.2.1.1.1.6.2", "1", "usart", "EARoot/EA1/EA7/EA2/EA1/EA2/EA2/EA2/EA1/EA1/EA1/EA6/EA2/EA729.htm", "4.png", "", "", "{767D3652-A6BE-4ea1-B4A1-547F535FE02D}", "Package");

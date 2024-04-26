@@ -1,0 +1,7 @@
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.1.2.2.1:1", "", "ATSAMHA1E16AB_DFP", "EARoot/EA1/EA7/EA2/EA1/EA2/EA1/EA2/EA2/EA1/EA444.htm", "175.png", "83", "0", "", "Logical diagram0","{F9F24A3A-E2CA-4542-88F9-362286DF4BFE}");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.1.2.2.1:2", "", "samha1e16ab", "EARoot/EA1/EA7/EA2/EA1/EA2/EA1/EA2/EA2/EA1/EA450.htm", "5.png", "E738", "0", "", "Class0","{77EA174B-A211-495e-A986-9EAD0D1BE333}");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.1.2.2.1:3", "", "«struct» _DeviceVectors", "EARoot/EA1/EA7/EA2/EA1/EA2/EA1/EA2/EA2/EA1/EA451.htm", "5.png", "E737", "E738", "", "Class0","{476202E6-A639-4a13-B568-A7682F14DBA9}");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.1.2.2.1:4", "", "IRQn", "EARoot/EA1/EA7/EA2/EA1/EA2/EA1/EA2/EA2/EA1/EA452.htm", "247.png", "E736", "E738", "", "Enumeration0","{FFF29C58-C138-4030-9F6D-2C7B02B55591}");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.1.2.2.1.1", "1", "component", "EARoot/EA1/EA7/EA2/EA1/EA2/EA1/EA2/EA2/EA1/EA1/EA455.htm", "4.png", "", "", "{3A029F66-7291-4ccc-A734-38CD0A0EBC9F}", "Package");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.1.2.2.1.2", "1", "instance", "EARoot/EA1/EA7/EA2/EA1/EA2/EA1/EA2/EA2/EA1/EA2/EA518.htm", "4.png", "", "", "{DF976FF4-6C9A-45d4-9470-62649C74D81F}", "Package");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.1.2.2.1.3", "1", "pio", "EARoot/EA1/EA7/EA2/EA1/EA2/EA1/EA2/EA2/EA1/EA3/EA557.htm", "4.png", "", "", "{B9C1B5AF-334A-42e0-8DD9-B1A09001503A}", "Package");

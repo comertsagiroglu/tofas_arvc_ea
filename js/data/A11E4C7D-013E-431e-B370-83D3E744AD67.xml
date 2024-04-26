@@ -1,0 +1,9 @@
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.2.2.1.1:1", "", "default", "EARoot/EA1/EA7/EA2/EA1/EA2/EA2/EA2/EA1/EA1/EA649.htm", "175.png", "55", "0", "", "Logical diagram0","{8F21B061-A3A2-4b08-9752-A59018E32F90}");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.2.2.1.1:2", "", "definitions", "EARoot/EA1/EA7/EA2/EA1/EA2/EA2/EA2/EA1/EA1/EA652.htm", "5.png", "E514", "0", "", "Class0","{60E98E6A-DB10-451c-9AED-F5E58986498F}");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.2.2.1.1:3", "", "device", "EARoot/EA1/EA7/EA2/EA1/EA2/EA2/EA2/EA1/EA1/EA653.htm", "5.png", "E515", "0", "", "Class0","{816D5505-9579-4a3a-B920-9255E2A773BD}");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.2.2.1.1:4", "", "device_cache", "EARoot/EA1/EA7/EA2/EA1/EA2/EA2/EA2/EA1/EA1/EA654.htm", "5.png", "E516", "0", "", "Class0","{C2CDB141-A13E-4504-AB6F-FD77F43AE212}");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.2.2.1.1:5", "", "device_vectors", "EARoot/EA1/EA7/EA2/EA1/EA2/EA2/EA2/EA1/EA1/EA655.htm", "5.png", "E518", "0", "", "Class0","{5450C4EF-F765-45c1-B997-ACA69D242C5E}");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.2.2.1.1:6", "", "interrupts", "EARoot/EA1/EA7/EA2/EA1/EA2/EA2/EA2/EA1/EA1/EA656.htm", "5.png", "E519", "0", "", "Class0","{FC1DC15D-F461-4399-94A4-745425F6665F}");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.2.2.1.1:7", "", "toolchain_specifics", "EARoot/EA1/EA7/EA2/EA1/EA2/EA2/EA2/EA1/EA1/EA658.htm", "5.png", "E520", "0", "", "Class0","{E9A3EF10-6FCE-4991-8DBA-4A69F8580A93}");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.2.2.1.1:8", "", "«struct» H3DeviceVectorsTag", "EARoot/EA1/EA7/EA2/EA1/EA2/EA2/EA2/EA1/EA1/EA659.htm", "5.png", "E517", "E518", "", "Class0","{50F6124D-BBD7-4a7b-A4C5-A812568EA61E}");
+tocTab[tocTab.length] = new Array("0.1.7.2.1.2.2.2.1.1.1", "1", "peripheral", "EARoot/EA1/EA7/EA2/EA1/EA2/EA2/EA2/EA1/EA1/EA1/EA662.htm", "4.png", "", "", "{5869D07C-D283-4118-ACAC-5422A5B821EF}", "Package");
